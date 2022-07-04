@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Prompt&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    margin-right: 180px;
+}
+
+th{
+    background-color: lightcyan;
+}
+
+tr:nth-child(odd) {
+    background-color: lightsteelblue;
+}
+
+
+tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+.cri{
+    display: flex;
+    flex-direction: column;
+}
+.cri img{
+    width: 100%;
+    height: 200vh;
+}
+
+.cri h1{
+    position: absolute;
+    margin: 40px 400px; 
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
+}
+.cri h2{
+    position: absolute;
+    color: white;
+    margin: 80px;
+    margin-left: 400px;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+}
+.cri table{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 20px;
+}
+#backgroundImage{
+   height: 110vh;
+   width: 100vw;
+}
